@@ -68,7 +68,7 @@ var UserTracking = (function () {
 
   var trackUser = function () {
     makeRequest({
-      url: 'http://localhost:3000/track',
+      url: 'https://user-tracking.herokuapp.com/track',
       method: 'POST',
       data: {
         tracking: tracking()
